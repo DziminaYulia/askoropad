@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(2, 0, 37);
+}
+
+
+h1 {
+ text-align: center;
+font-size: 40px;
+text-shadow: 3px -3px 4px rgba(236,199,24,0.63);
+color: rgb(255, 145, 0);;
+}
+
+img{
+    width: 300px;
+    height: 270px;
+}
+.catalog{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    width:400px;
+    height: 420px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    position: relative;
+   
+
+background: linear-gradient(45deg, rgba(249,196,0,1) 0%, rgba(209,196,0,1) 9%, rgba(156,168,0,1) 19%, rgba(72,167,1,1) 29%, rgba(13,195,0,1) 39%, rgba(56,255,0,1) 49%, rgba(0,255,106,1) 59%, rgba(0,212,255,1) 69%, rgba(0,174,209,1) 79%, rgba(0,141,170,1) 89%, rgba(0,128,154,1) 100%);;
+}
+
+
+
+article a{
+    text-decoration: none;
+    background-color: rgb(255, 145, 0);
+    color: black;
+    border-radius: 10px;
+    border: 6px double rgb(5, 10, 10);
+   visibility: hidden; 
+    position: absolute; 
+    bottom: 10px; 
+ 
+    text-align: center;
+    padding: 10px 20px; 
+    font-size: 16px;
+    
+    
+}
+
+article:hover a{
+    visibility: visible;
+    opacity: 1;
+    transition: 3s ease; 
+    transform:  translateY(-20px); 
+}
+
+ a{
+    text-decoration: none;
+    background-color: rgb(255, 145, 0);
+    color: black;
+    border-radius: 10px;
+    border: 6px double rgb(5, 10, 10);
+    padding: 4px;
+    font-weight: 600;
+ }
+
+ img{
+    border: 6px;
+ }
+
+.dddd{
+
+    width: 50%;
+    height: 200px;
+       text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    position: relative;
+    border: 2px solid red;
+   
+
+background: linear-gradient(45deg, rgba(249,196,0,1) 0%, rgba(209,196,0,1) 9%, rgba(156,168,0,1) 19%, rgba(72,167,1,1) 29%, rgba(13,195,0,1) 39%, rgba(56,255,0,1) 49%, rgba(0,255,106,1) 59%, rgba(0,212,255,1) 69%, rgba(0,174,209,1) 79%, rgba(0,141,170,1) 89%, rgba(0,128,154,1) 100%);;
+}
+
+.fcon{
+    display: flex;
+    gap: 35px;
+}
+    
+iframe{
+    width: 85%;
+}
